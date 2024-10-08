@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-ser;
+    list-style: none;
+    box-sizing: border-box;
+}
+header{
+    padding: min(2vh, 20rem);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+}
+header ul{
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+header ul li a{
+    color: white;
+}
+.section1{
+    padding: min(25vh, 30rem);
+    background: linear-gradient(180deg, #00000064 1.33%, rgba(0, 0, 0, 0.745) 100%), url(img/chairs-2181947_1280.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.6;
+    font-weight: 900;
+    color: white;
+    
+    
+}
+.section1 h2{
+    font-size: 3em;
+}
+.section1 button{
+    padding: 1.1rem;
+    width: 15vw;
+    background-color: black;
+    border-radius: 18px;
+    color: white;
+    font-weight: 900;
+    
+}
