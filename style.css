@@ -48,3 +48,58 @@ header ul li a{
     font-weight: 900;
     
 }
+.section2{
+    padding: min(40vh, 30rem);
+    background-image: url(img/EASii-Living-room-LED-Ligthing-2.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.6;
+    font-weight: 900;
+    color: black;
+    display: flex;
+    
+    
+}
+.section2 img{
+    width: 30vw;
+    position: relative;
+    bottom: 0;
+    right: 0;
+}
+.section2 h2{
+    font-size: 40px;
+}
+.section2 button{
+    padding: 1.1rem;
+    width: 10rem;
+    background-color: white;
+    font-weight: 900;
+    margin-top: 15px;
+}
+.section3{
+    padding: min(15vh, 30rem);
+    background-image: url(img/renderizacao-3d-de-fundo-geometrico-preto-e-branco-abstrato.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.6;
+    font-weight: 900;
+    color: black;
+    color: white;
+    
+    
+}
+.divpai{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 10px;
+    gap: 20px;
+
+}
+.section3 p{
+    font-weight: 300;
+    margin-top: 20px;
+}
+
