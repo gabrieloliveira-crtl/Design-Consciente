@@ -50,7 +50,7 @@ header ul li a{
 }
 .section2{
     padding: min(40vh, 30rem);
-    background-image: url(img/EASii-Living-room-LED-Ligthing-2.png);
+    background-image: url(img/parede-branca.jpg);
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -61,11 +61,8 @@ header ul li a{
     
     
 }
-.section2 img{
+.section2 div img{
     width: 30vw;
-    position: relative;
-    bottom: 0;
-    right: 0;
 }
 .section2 h2{
     font-size: 40px;
