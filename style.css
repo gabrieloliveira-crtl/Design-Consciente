@@ -130,6 +130,10 @@ header ul li a{
     font-weight: 900;
     margin-top: 15px;
 }
+.text{
+    margin-left: 99px;
+    font-size: 17px;
+}
 .section3{
     padding: min(15vh, 30rem);
     background-image: url(img/renderizacao-3d-de-fundo-geometrico-preto-e-branco-abstrato.jpg);
