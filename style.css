@@ -218,15 +218,15 @@ footer{
     font-weight: 900;
     }
     .section2{
-        padding: min(2vh,10rem);
+    padding: 1px;
         width: 100%;
 
     }
     .text{
-        font-size: 10px;
+        font-size: 9px;
     }
     .text h2{
-        font-size: 20px;
+        font-size: 10px;
     }
     .image{
         display: flex;
