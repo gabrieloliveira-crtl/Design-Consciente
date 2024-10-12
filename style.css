@@ -162,8 +162,18 @@ header ul li a{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: min(20vh, 20rem);
+    gap: 90px;
+    padding: min(15vh, 20rem);
+    line-height: 1.6;
 }
+
+footer{
+    padding: min(5vh,10rem);
+    text-align: center;
+    background-color: #787272;
+    font-weight: 700;
+}
+
 
 @media(max-width: 834px) {
 
@@ -193,21 +203,41 @@ header ul li a{
        display: none;
     }
 
-
-    .cad-mobile button {
-        width: 14rem;
-        height: 4rem;
-        border-radius: 5px;
-        background-color: #f8f4f46c;
-        color: #000000;
+    .section1{
+        padding: min(13vh,20rem);
+        line-height: 1.6;
     }
-
-
-
-    .cad-mobile button a {
-        text-decoration: none;
-        color: white;
+    .section1 button {
+        margin-top: 20px;
+    padding: 2rem;
+    text-align: center;
+    width: 30vw;
+    background-color: black;
+    border-radius: 18px;
+    color: white;
+    font-weight: 900;
+    }
+    .section2{
+        padding: min(2vh,10rem);
 
     }
+    .text{
+        font-size: 10px;
+    }
+    .text h2{
+        font-size: 20px;
+    }
+    .image{
+        display: flex;
+        justify-content: end;
+        width: 50vw;
+    }
+    .section3{
+        padding: min(4vh, 10rem);
+    }
+    .section4{
+        padding: min(5vh,10rem);
+    }
+    
 }
 
