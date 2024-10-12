@@ -230,7 +230,7 @@ footer{
     .image{
         display: flex;
         justify-content: end;
-        width: 50vw;
+        width: 20vw;
     }
     .section3{
         padding: min(4vh, 10rem);
